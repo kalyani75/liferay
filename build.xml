@@ -1,0 +1,12 @@
+<project name="liferay" default="build-war" basedir=".">
+<target name="build-war">
+<delete file="liferay.war"/>
+   <war destfile="liferay.war">
+      <fileset dir=".">
+
+      </fileset>
+         
+   </war>
+   
+</target>
+</project>

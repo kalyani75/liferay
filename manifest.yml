@@ -1,0 +1,10 @@
+applications:
+- disk_quota: 2048M
+  host: liferayASD
+  name: liferayASD
+  domain: mybluemix.net
+  buildpack: liberty-for-java
+  instances: 1
+  memory: 2048M
+  path: liferay.war
+  IBM_JVM_LICENSE: L-JWOD-9NXJQY
