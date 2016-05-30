@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 2048M
-  host: liferayASD
-  name: liferayASD
+  host: liferayKD
+  name: liferayKD
   domain: mybluemix.net
   buildpack: liberty-for-java
   instances: 1
